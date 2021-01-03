@@ -6,9 +6,6 @@ from collections import defaultdict
 
 # download covid data from data.cdc.gov, load it as dataframe, and sort it
 df = pd.read_csv('covid.csv',).sort_values('submission_date')
-
-# find dinctinct states 
-states = np.array(df['state'].value_counts().keys())
 # set the sorting dictionary
 record = defaultdict(list)
 # sort column "new_case" into its responding state
@@ -16,6 +13,8 @@ for x in range(len(df)):
     record[df.iloc[x]['state']].append(df.iloc[x]['new_case'])
 # transform "record" into a dataframe "data"
 data = pd.DataFrame(record)
+# sort the columns 
+data = data.sort_index(axis=1)
 # plotting
 fig = plt.figure()
 ax = fig.subplots()
@@ -25,6 +24,5 @@ ax.invert_yaxis()
 ax.set_xlabel('States')
 ax.set_ylabel('# of Day')
 plt.show()
-
 
 
