@@ -58,7 +58,7 @@ class ny_mega_millions:
 
             
     def least_millions(self, number=5):
-        """random draw from the 5 least-shown white ball number list and 5 least_shown mega ball list"""
+        """random draw from self.least_white and self.least_mega"""
         least_lst = []
         for x in range(number):
             least_lst.append(random.sample(self.least_white, 5) + random.sample(self.least_mega, 1))
