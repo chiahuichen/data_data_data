@@ -1,3 +1,6 @@
+"Data! Data! Data!.. I can't make bricks without clay."
+    - Sherlock Holmes, The Adventure of the Copper Beeches
+
 This repository showcases data manipulation and plotting techniques. 
 
 # covid_sns_heatmap.py
