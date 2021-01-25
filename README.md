@@ -9,7 +9,7 @@ In the script 'covid_sns_heatmap.py', the raw covid cases dataset is downloaded 
 At the time of writing, the latest update of the CDC dataset is on December 30th, 2020.)
 This plot shows daily new cases in each state using seaborn heatmap.
 
-![USA Covid-19 Daily New Cases in 2020](pictures/covid_heatmap_sorted.png)
+
 
 
 # ny_mega_millions.py
