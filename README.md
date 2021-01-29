@@ -33,22 +33,22 @@ Some searborn plotting experiments with data from McDonald's menu nutrients.
 #### sodium level within different menu categories
 ![USA Covid-19 Daily New Cases in 2020](.gitignore/Figure_1.png)
 
-#### sns.jointplot(kind=default) showing correlation bwtween Total Fat and Protein 
+#### sns.jointplot(kind=default) showing correlation between Total Fat and Protein 
 ![USA Covid-19 Daily New Cases in 2020](.gitignore/Figure_2.png)
 
-#### sns.jointplot(kind='hex') showing correlation bwtween Total Fat and Protein
+#### sns.jointplot(kind='hex') showing correlation between Total Fat and Protein
 ![USA Covid-19 Daily New Cases in 2020](.gitignore/Figure_3.png)
 
-#### sns.jointplot(kind='reg') showing correlation bwtween Total Fat and Protein
+#### sns.jointplot(kind='reg') showing correlation between Total Fat and Protein
 ![USA Covid-19 Daily New Cases in 2020](.gitignore/Figure_4.png)
 
-#### sns.jointplot(kind=default, marginal_ticks=False, palette='flare',hue='Category', marginal_ticks=False) showing correlation bwtween Total Fat and Protein
+#### sns.jointplot(kind=default, marginal_ticks=False, palette='flare',hue='Category', marginal_ticks=False) showing correlation between Total Fat and Protein
 ![USA Covid-19 Daily New Cases in 2020](.gitignore/Figure_5.png)
 
 #### sns.jointplot(kind=default,palette="crest", hue='Category', height=8, ratio=3, marginal_ticks=True)
 ![USA Covid-19 Daily New Cases in 2020](.gitignore/Figure_6.png)
 
-#### more flexibility to plot ax_marg_x and ax_marg_y with different plotting styles; showing correlation bwtween Protein and Calories
+#### more flexibility to plot ax_marg_x and ax_marg_y with different plotting styles; showing correlation between Protein and Calories
 ![USA Covid-19 Daily New Cases in 2020](.gitignore/Figure_7.png)
 
 #### Boxplot; showing Dietary Fiber in each meal category
